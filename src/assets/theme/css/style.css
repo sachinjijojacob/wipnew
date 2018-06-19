@@ -1,4 +1,4 @@
-/* Theme Name: It's Me - Personal Resume and Portfolio HTML Template 
+/* Theme Name: It's Me - Personal Resume and Portfolio HTML Template
  Author: yobithemes
  Author URI: http://www.yobithemes.com
 
@@ -27,7 +27,7 @@
  8.c) form
  8.d) tabs
  8.e) nav
- 8.f) modal 
+ 8.f) modal
  8.g) panel
  8.h) magnific-popup
 9) Main Footer
@@ -855,17 +855,64 @@ button:focus {
 }
 /* 6) Hero
 ----------------------------------------------------------------------------- */
+/*.hero-01 {*/
+  /*!*background: url(../img/bg8.jpg) no-repeat center;*!*/
+  /*background-size: cover;*/
+  /*position: fixed;*/
+  /*height: 100%;*/
+  /*left: 0;*/
+  /*width: 50%;*/
+  /*top: 0;*/
+  /*z-index: 0;*/
+  /*color: #ffffff;*/
+/*}*/
+
+
+
 .hero-01 {
-  background: url(../img/bg8.jpg) no-repeat center;
-  background-size: cover;
-  position: fixed;
-  height: 100%;
-  left: 0;
+  max-width: 1200px;
+  background: url(https://www.wallpapersrc.com/img/d500505eef0146c7a41b69583fc57029/book-and-macbook-pro-coding-1024x600.jpg), linear-gradient(#00f,#f00);
+  /*background-size: cover, 100% 100%;*/
+  padding-top: 56.44%;
+  background-position: 0 0, -1200px 0px;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  transition: 3s background-position linear;
+  /*margin: 0 auto;*/
   width: 50%;
-  top: 0;
-  z-index: 0;
-  color: #ffffff;
+  height: 100%;
 }
+.hero-01:hover { background-position: 0 0, 0 0; }
+
+
+
+/*.hero-01 {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*!*margin: auto;*!*/
+  /*width: 50%;*/
+  /*height: 100%;*/
+  /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/smoke_texture2714-min.jpg") center center no-repeat;*/
+  /*background-size: cover;*/
+  /*box-shadow: 0 3rem 5rem -2rem rgba(0, 0, 0, 0.8);*/
+  /*z-index: 1;*/
+  /*overflow: hidden;*/
+/*}*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 992px) {
   .hero-01 {
     position: relative;
@@ -2371,9 +2418,9 @@ label span {
 .mfp-no-margins .mfp-container {
   padding: 0;
 }
-/* 
+/*
 
-for zoom animation 
+for zoom animation
 uncomment this part if you haven't added this code anywhere else
 
 */
